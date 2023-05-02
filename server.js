@@ -28,6 +28,4 @@ app.get("/", (req, res) => {
 
 app.use("/users", userRoutes);
 
-app.listen(port, () => {
-  console.log("Port reached");
-});
+app.listen(port, () => {});
